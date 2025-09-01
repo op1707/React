@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Download, Plus, Grid, List, Search } from "lucide-react";
+import { Download, Plus, Search } from "lucide-react";
 import filterIcon from "../../assets/filterIcon.png";
 import navigation_1 from "../../assets/navigation_1.png";
 import navigation_2 from "../../assets/navigation_2.png";

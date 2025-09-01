@@ -22,7 +22,7 @@ interface MenuSection {
 }
 
 const Sidebar: React.FC = () => {
-  const [activeItem, setActiveItem] = useState("appointments");
+  const [activeItem] = useState("appointments");
 
   const menuSections: MenuSection[] = [
     {
@@ -72,6 +72,7 @@ const Sidebar: React.FC = () => {
   ];
 
   const handleItemClick = (itemId: string) => {
+    console.log(itemId);
     // setActiveItem(itemId);
   };
 
